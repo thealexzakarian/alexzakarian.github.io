@@ -22,32 +22,37 @@
             color: #ffffff;
         }
 
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
         .button {
-            display: inline-block;
-            width: auto;
-            min-width: 150px;
-            padding: 10px 20px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 50px;
+            padding: 0 10px;
             text-align: center;
-            font-size: 1em;
+            font-size: 0.8em; /* Adjusted font size */
+            font-weight: bold;
             background-color: transparent;
             border: 2px solid #ffffff;
             color: #ffffff;
             text-transform: uppercase;
             text-decoration: none;
             border-radius: 5px;
-            margin: 10px;
-            line-height: 1.5;
+            line-height: 1;
             transition: all 0.3s ease-in-out;
+            white-space: nowrap;
         }
 
         .button:hover {
             background-color: #ffffff;
             color: #1c1c1e;
-        }
-
-        .button-container {
-            text-align: center;
-            margin-top: 20px;
         }
 
         ul {
@@ -91,13 +96,15 @@
             </nav>
         </header>
 
-    <!-- About Me -->
-    <article id="about">
-        <h2 class="major">About Me</h2>
-        <img src="profile photo.jpeg" alt="Profile Photo" style="width:200px; height:auto; border-radius:50%;">
-        <p>Welcome to my professional portfolio! I am a passionate computational scientist with a strong background in Computer Science, Artificial Intelligence, and Biotechnology. My mission is to apply data science and machine learning to solve impactful problems in healthcare, scientific research, and beyond.</p>
-        <p>I bring a unique combination of computational expertise and a deep understanding of scientific principles to every challenge I tackle. With advanced degrees in Computer Science and Biotechnology, I specialize in bridging the gap between technology and scientific research.</p>
-    </article>
+        <!-- Main -->
+        <div id="main">
+
+            <!-- About Me -->
+            <article id="about">
+                <h2 class="major">About Me</h2>
+                <p>Welcome to my professional portfolio! I am a passionate computational scientist with a strong background in Computer Science, Artificial Intelligence, and Biotechnology. My mission is to apply data science and machine learning to solve impactful problems in healthcare, scientific research, and beyond.</p>
+                <p>I bring a unique combination of computational expertise and a deep understanding of scientific principles to every challenge I tackle. With advanced degrees in Computer Science and Biotechnology, I specialize in bridging the gap between technology and scientific research.</p>
+            </article>
 
             <!-- Projects -->
             <article id="work">
@@ -115,8 +122,8 @@
                         <li>Enabled precise predictions from diverse datasets to empower decision-makers in global health.</li>
                     </ul>
                     <div class="button-container">
-                        <a href="assets/AppliedAI-Summative.pdf" target="_blank" class="button">Download Report</a>
-                        <a href="assets/AppliedAISummative.py" target="_blank" class="button">Download Code</a>
+                        <a href="assets/files/Applied AI-Summative.pdf" target="_blank" class="button">Download Report</a>
+                        <a href="assets/files/AppliedAISummative.py" target="_blank" class="button">Download Code</a>
                     </div>
                 </section>
 
@@ -131,8 +138,8 @@
                         <li>Built using Pandas, Matplotlib, and custom Python scripts.</li>
                     </ul>
                     <div class="button-container">
-                        <a href="assets/AdvancedProgramming-Summative.pdf" target="_blank" class="button">Download Report</a>
-                        <a href="assets/AdvancedProgrammingSummative.py" target="_blank" class="button">Download Code</a>
+                        <a href="assets/files/Advanced Programming - Summative Paper.pdf" target="_blank" class="button">Download Report</a>
+                        <a href="assets/files/AdvancedProgrammingSummative.py" target="_blank" class="button">Download Code</a>
                     </div>
                 </section>
             </article>
@@ -142,7 +149,7 @@
                 <h2 class="major">Resume</h2>
                 <p>Download my resume by clicking the button below:</p>
                 <div class="button-container">
-                    <a href="assets/Alex Zakarian - Resume.pdf" target="_blank" class="button">Download Resume</a>
+                    <a href="Alex Zakarian - Resume.pdf" target="_blank" class="button">Download Resume</a>
                 </div>
             </article>
 
