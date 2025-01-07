@@ -5,13 +5,13 @@ import numpy as np
 
 
 # Load data files 
-mortality_africa = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Child mortality rates_Africa.csv')
-mortality_americas = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Child mortality rates_Americas.csv')
-mortality_eastern_med = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Child mortality rates_Eastern_Mediterranean.csv')
-mortality_europe = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Child mortality rates_Europe.csv')
-mortality_south_asia = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Child mortality rates_South_East_Asia.csv')
-mortality_west_pacific = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Child mortality rates_Western_Pacific.csv')
-nutrition_data = pd.read_csv('/Users/alexzakarian/Desktop/Msc Computer Science with AI - York/Applied AI/AAI_2024_Datasets /Infant nutrition data by country.csv')
+mortality_africa = pd.read_csv('/Users/Child mortality rates_Africa.csv')
+mortality_americas = pd.read_csv('/Users//Child mortality rates_Americas.csv')
+mortality_eastern_med = pd.read_csv('/Users/Child mortality rates_Eastern_Mediterranean.csv')
+mortality_europe = pd.read_csv('/Users/Child mortality rates_Europe.csv')
+mortality_south_asia = pd.read_csv('/Users/Child mortality rates_South_East_Asia.csv')
+mortality_west_pacific = pd.read_csv('/Users/Child mortality rates_Western_Pacific.csv')
+nutrition_data = pd.read_csv('/Users/Infant nutrition data by country.csv')
 
 
 # Clean the datasets dropping rows with missing values
