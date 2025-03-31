@@ -1,142 +1,90 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alex Zakarian Portfolio</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
         body {
             font-family: Arial, sans-serif;
             color: #ffffff;
             background-color: #1c1c1e;
+            margin: 0;
+            padding: 0;
         }
-
         .major {
             text-transform: uppercase;
-            font-size: 1.8em;
+            font-size: 20px;
             margin-bottom: 15px;
             border-bottom: 2px solid #444;
             padding-bottom: 5px;
             color: #ffffff;
         }
-
         .button-container {
             display: flex;
             justify-content: center;
             margin-top: 20px;
         }
-
         .button {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            max-width: 100%;
             padding: 10px 20px;
-            font-size: 0.8em;
-            font-weight: bold;
             background-color: transparent;
             border: 2px solid #ffffff;
             color: #ffffff;
             text-transform: uppercase;
             text-decoration: none;
             border-radius: 5px;
-            transition: all 0.3s ease-in-out;
+            transition: background-color 0.3s ease-in-out;
         }
-
         .button:hover {
             background-color: #ffffff;
             color: #1c1c1e;
         }
-
-        ul {
-            padding-left: 20px;
-        }
-
-        ul li {
-            margin-bottom: 10px;
-        }
-
-        .image {
-            display: block;
-            margin: 0 auto 20px;
-        }
-
-        .project {
-            margin-bottom: 40px;
-        }
     </style>
 </head>
-<body class="is-preload">
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-        <!-- Header -->
-        <header id="header">
-            <div class="content">
-                <div class="inner">
-                    <h1>Alex Zakarian</h1>
-                    <p>Welcome to my professional portfolio. Explore my expertise in computational science and biotechnology, and discover my coding projects.</p>
-                </div>
+<body>
+<div id="wrapper">
+    <header id="header">
+        <div class="content">
+            <div class="inner">
+                <h1>Alex Zakarian</h1>
+                <p>Welcome to my professional portfolio. Here you can explore my expertise in computational science and my coding projects.</p>
             </div>
-        </header>
-
-        <!-- Main -->
-        <div id="main">
-
-            <!-- About Me -->
-            <article id="about">
-                <h2 class="major">About Me</h2>
-                <p>Welcome to my portfolio! I am a computational scientist with expertise in artificial intelligence, biotechnology, and data science, dedicated to addressing complex global challenges in healthcare and scientific research. 
-                    With advanced degrees in computer science and biotechnology, I bring a unique ability to integrate computational methodologies with scientific principles to develop innovative solutions.</p>
-            </article>
-
-            <!-- Projects -->
-            <article id="work">
-                <h2 class="major">Projects</h2>
-
-                <!-- Project 1 -->
-                <section class="project">
-                    <h3>AI-Driven Child Mortality Prediction Application</h3>
-                    <p>Developed a supervised AI-powered tool to predict child mortality, aimed at supporting healthcare providers in early intervention and resource allocation.</p>
-                    <ul>
-                        <li>Integrated advanced machine learning techniques (TensorFlow, Neural Networks) with data preprocessing.</li>
-                        <li>Enabled precise predictions from diverse datasets to empower decision-makers in global health.</li>
-                    </ul>
-                    <div class="button-container">
-                        <a href="assets/GlobalChildMortalityRatesResults.py" target="_blank" class="button">Download Code</a>
-                    </div>
-                </section>
-
-                <!-- Project 2 -->
-                <section class="project">
-                    <h3>Python-Based Student Activity Analyzer</h3>
-                    <p>Created a Python-based analytics tool to process and visualize student activity logs, providing valuable insights for educators to enhance engagement and learning outcomes.</p>
-                    <ul>
-                        <li>Generated statistical outputs alongside heatmaps and correlation graphs.</li>
-                        <li>Built using Pandas, Matplotlib, and Python scripts.</li>
-                    </ul>
-                    <div class="button-container">
-                        <a href="assets/StudentPerformanceResults.py" target="_blank" class="button">Download Code</a>
-                    </div>
-                </section>
-            </article>
-
         </div>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <p>&copy; 2024 Alex Zakarian. Design by HTML5 UP.</p>
-        </footer>
+    </header>
+    <div id="main">
+        <article id="about">
+            <h2 class="major">About Me</h2>
+            <p>Welcome to my portfolio! I am a computational scientist with expertise in artificial intelligence, biotechnology, and data science, dedicated to addressing complex global challenges in healthcare and scientific research.</p>
+        </article>
+        <article id="work">
+            <h2 class="major">Projects</h2>
+            <section class="project">
+                <h3>AI-Driven Child Mortality Prediction Application</h3>
+                <p>Developed a supervised AI-powered tool to predict child mortality, aimed at supporting healthcare providers in early intervention and resource allocation.</p>
+                <ul>
+                    <li>Integrated advanced machine learning techniques (TensorFlow, Neural Networks) with data preprocessing.</li>
+                    <li>Enabled precise predictions from diverse datasets to empower decision-makers in global health.</li>
+                </ul>
+                <div class="button-container">
+                    <a href="assets/GlobalChildMortalityRatesResults.py" target="_blank" class="button">Download Code</a>
+                </div>
+            </section>
+            <section class="project">
+                <h3>Python-Based Student Activity Analyzer</h3>
+                <p>Created a Python-based analytics tool to process and visualize student activity logs, providing valuable insights for educators to enhance engagement and learning outcomes.</p>
+                <ul>
+                    <li>Generated statistical outputs alongside heatmaps and correlation graphs.</li>
+                    <li>Built using Pandas, Matplotlib, and Python scripts.</li>
+                </ul>
+                <div class="button-container">
+                    <a href="assets/StudentPerformanceResults.py" target="_blank" class="button">Download Code</a>
+                </div>
+            </section>
+        </article>
     </div>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
+    <footer id="footer">
+        <p>&copy; </p>
+    </footer>
+</div>
 </body>
 </html>
