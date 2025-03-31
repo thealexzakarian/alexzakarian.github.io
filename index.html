@@ -10,57 +10,59 @@
             margin: 0;
             padding: 0;
             height: 100%;
-            background: #ffffff; /* Light background for a clean look */
+            background: #121212; /* Dark background for dark mode */
             font-family: 'Roboto', sans-serif;
-            color: #333333; /* Dark gray text for contrast */
+            color: #e0e0e0; /* Light grey text for high contrast in dark mode */
             line-height: 1.6;
         }
 
         header {
             text-align: center;
             padding: 40px 20px;
-            background: #f0f0f0; /* Slightly off-white background for the header */
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+            background: #1e1e1e; /* Slightly darker background for the header */
+            border-bottom: 2px solid #333; /* Subtle border for separation */
+        }
+
+        h1, h2, h3 {
+            margin: 20px 0;
         }
 
         h1 {
             font-size: 32px;
-            color: #000000;
+            color: #ffffff;
             font-weight: 700;
-            margin: 0 0 10px 0;
         }
 
         h2 {
             font-size: 28px;
-            color: #333333;
+            color: #bb86fc; /* Using a purple accent color for headers */
             font-weight: 700;
-            margin: 60px 0 20px 0;
         }
 
         h3 {
             font-size: 24px;
-            color: #333333;
+            color: #ffffff;
             font-weight: 700;
-            margin: 20px 0;
         }
 
-        p {
+        p, ul li {
             font-size: 18px;
-            max-width: 800px;
-            margin: 0 auto 20px;
-            color: #666666;
+            color: #e0e0e0;
         }
 
         .content {
-            padding: 0 20px;
-            text-align: center;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 960px;
+            background: #222; /* Darker cards for content */
+            border-radius: 8px; /* Rounded corners for cards */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadows for depth */
+            text-align: left;
         }
 
         ul {
             list-style-type: none;
             padding: 0;
-            text-align: left;
-            display: inline-block;
         }
 
         ul li {
@@ -73,7 +75,7 @@
             content: '•';
             position: absolute;
             left: 0;
-            color: #f6861f; /* Accent color for bullet points */
+            color: #bb86fc; /* Purple accents for list bullets */
         }
 
         .button-container {
@@ -82,10 +84,9 @@
         }
 
         .button {
-            display: inline-block;
             padding: 10px 30px;
-            background-color: #333333;
-            color: #ffffff;
+            background-color: #bb86fc;
+            color: #121212;
             text-transform: uppercase;
             text-decoration: none;
             border: none;
@@ -96,11 +97,11 @@
         }
 
         .button:hover {
-            background-color: #f6861f;
+            background-color: #cf9fff;
         }
 
         footer {
-            background: #333333;
+            background: #1e1e1e;
             color: #ffffff;
             text-align: center;
             padding: 12px 0;
@@ -114,7 +115,7 @@
 <body>
     <header>
         <h1>Alex Zakarian</h1>
-        <p>Welcome to my professional portfolio. Explore my expertise in computational science and my innovative projects.</p>
+        <p>Welcome to my professional portfolio. Explore my expertise in computational science and innovative projects.</p>
     </header>
     <div id="main">
         <section class="content">
